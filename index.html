@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <h1>Stopwatch</h1>
+    <div class="main">
+      <label id="heading">Remind me at </label>
+      <hr />
+      <div id="button">
+        <button type="submit" id="start" onclick="start()">
+          <img
+            src="https://www.pngarts.com/files/2/Play-PNG-Download-Image.png"
+            alt="Start"
+          />
+        </button>
+        <button type="submit" id="stop" onclick="stop()">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/10181/10181283.png"
+            alt="Stop"
+          />
+        </button>
+        <button type="submit" id="reset" onclick="reset()">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl1kwZ4XoqxcShY2bR_XNM_93olwaF6SlXzA&s"
+            alt="Reset"
+          />
+        </button>
+      </div>
+      <h2 id="result">00:00:00:00</h2>
+      <h5>Current Time :</h5>
+      <p id="current-time">00:00:00:00</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
